@@ -5,8 +5,6 @@ PRODUCT_PACKAGES += \
     com.google.android.maps.xml \
     com.google.android.maps.jar \
     FakeStore \
-    FDroid \
-    FDroidPrivilegedExtension \
     GmsCore \
     GsfProxy \
     microg-a5k.xml \
