@@ -18,6 +18,8 @@ LOCAL_SRC_FILES := com.google.android.maps.jar
 LOCAL_PACKAGE_NAME := com.google.android.maps.jar
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_REQUIRED_MODULES := com.google.android.maps.xml
+LOCAL_ENFORCE_USES_LIBRARIES := false
+LOCAL_DEX_PREOPT := false
 include $(BUILD_PREBUILT)
 
 endif
