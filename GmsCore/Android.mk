@@ -21,8 +21,10 @@ LOCAL_CERTIFICATE := platform
 LOCAL_OVERRIDES_PACKAGES := com.qualcomm.location
 LOCAL_REQUIRED_MODULES := privapp-permissions-com.google.android.gms.xml
 LOCAL_USES_LIBRARIES := com.android.location.provider
-LOCAL_OPTIONAL_USES_LIBRARIES := androidx.window.extensions \
+LOCAL_OPTIONAL_USES_LIBRARIES := org.apache.http.legacy \
+    androidx.window.extensions \
     androidx.window.sidecar
+    
 include $(BUILD_PREBUILT)
 
 endif
